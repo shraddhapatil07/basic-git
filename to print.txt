@@ -1,0 +1,33 @@
+Ascii code
+
+sequnce of operators 
+
+
+
+
+(dbx) n
+stopped in dorate at line 1988 ($t1)
+ 1988                   if (firstiteration)
+(dbx) n
+stopped in dorate at line 1990 ($t1)
+ 1990                           prt_syscfg_hdr();
+(dbx) n
+
+sp configuration: @lcpu=80 @mem=1024000MB @ent=20.00
+
+stopped in dorate at line 1993 ($t1)
+ 1993                           if (Pflag)
+(dbx) n
+stopped in dorate at line 1999 ($t1)
+ 1999                                           if(!xmlflag) prthdr();
+(dbx) n
+stopped in dorate at line 1999 ($t1)
+ 1999                                           if(!xmlflag) prthdr();
+(dbx) n
+kthr    memory              page              faults              cpu
+----- ----------- ------------------------ ------------ -----------------------
+                @                           @    @                           @
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec
+stopped in dorate at line 2001 ($t1)
+ 2001                           firstiteration = FALSE;
+(dbx) q
